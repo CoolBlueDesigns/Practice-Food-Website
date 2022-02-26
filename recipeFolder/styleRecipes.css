@@ -1,0 +1,181 @@
+.header{
+   display: block;
+   background-color: wheat;
+   height: auto;
+   width: 100%;
+   text-align: center;
+   padding-bottom: 10px;
+   font-family:monospace;
+}
+
+.containerDiv{
+   background-color: wheat;
+   height: auto;
+   width: 100%;
+}
+
+.topnavbar {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    height: 6vh;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .topli{
+    display: inline;
+    float: left;
+    width:25%;
+    text-decoration: none;
+    text-align: center;
+  }
+  
+   .navText{
+    display: block;
+    text-decoration: none;
+    color:darkgreen;
+    font-size: 4vw;
+    text-align: center;
+    font-family:monospace;
+  }
+  
+.navText:hover{
+    color: #f2faf2;
+}
+
+  @media only screen and (min-width: 720px){
+    .navText{
+      padding-top: 0;
+      font-size: 5vh;
+    }
+  }
+  
+  .title{
+    
+    font-size: 5vw;
+    color: darkslategrey;
+}
+
+  .secondnavbar {
+    display:block;
+    position: relative;
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    height: 6vh;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    margin-top: -15px;
+    margin-right: 0;
+    text-align: center;
+    background-color: #bcc96f;
+  }
+
+  @media only screen and (min-width: 720px){
+    .secondnavbar{
+      margin-top: 0;
+    }
+  }
+
+  .navText2{
+    display: block;
+    text-decoration: none;
+    color:#4f2040;
+    font-size: 3vw;
+    text-align: center;
+    padding-top: 1vh;
+    font-family:monospace;
+  }  
+
+  .navText2:hover{
+    color: #f2faf2;
+}
+
+  @media only screen and (min-width: 720px){
+    .navText2{
+      padding-top: 0;
+      font-size: 4vh;
+    }
+  }
+
+  .secondli{
+    display: inline;
+    float: left;
+    width:33.3%;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .headingDiv{
+    font-size: 5vw;
+    font-family: monospace;
+    text-align: center;
+    color:#bf6f1f;
+    text-decoration: underline;
+    width: 100%;
+    margin-bottom: 1vh;
+    outline: 2px solid grey;
+  }
+
+  .headingTitle{
+    display: block;
+    font-size: 5vw;
+    font-family: monospace;
+    text-align: center;
+    color:#bf6f1f;
+    outline: 2px solid blue;
+    text-decoration: underline;
+    width: 100%;
+  }
+
+  .recipes{
+    display: grid;
+    position: relative;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 15px;
+    width: 100%;
+    outline: 2px solid brown;
+  }
+
+  .r1{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .r2{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+  .r3{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+  }
+
+.method{
+  text-indent: 15px;
+}
+
+.willitwork{
+  display: block;
+  float: left;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width:100%;
+  padding: 1%;
+  outline: 2px solid green;
+}

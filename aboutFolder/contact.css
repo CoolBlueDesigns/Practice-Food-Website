@@ -1,0 +1,133 @@
+body{
+    background-color: #805171;
+}
+
+.header{
+    display: block;
+    background-color: #7af386;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:monospace;
+ }
+
+ .title{ 
+    padding-top: 3.5vh;
+    font-size: 5vw;
+    color: #4f2040;
+    font-family:monospace;
+}
+
+.topnavbar {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    height: 6vh;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .topli{
+    display: inline;
+    float: left;
+    width:33%;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .navText{
+    display: block;
+    text-decoration: none;
+    color: #bf6f1f;
+    font-size: 4vw;
+    text-align: center;
+    font-family:monospace;
+  }
+
+  .navText:hover{
+    color: #f2faf2;
+}
+
+  @media only screen and (min-width: 720px){
+    .navText{
+      padding-top: 0;
+      font-size: 5vh;
+    }
+  }
+
+  .divider{
+      height: 3vh;
+      width: 100%;
+      background-color: #bf6f1f;
+  }
+
+  .containerHeader{
+    color: white;
+    text-align: center;
+    font-family:monospace;
+}
+
+@media only screen and (min-width: 720px){
+    .containerHeader{
+      font-size: 5vh;
+    }
+  }
+
+  .containerPara{
+      color:white;
+      font-size: 3vw;
+      text-indent: 10px;
+      font-family:monospace;
+  }
+
+  @media only screen and (min-width: 720px){
+    .containerPara{
+      font-size: 4vh;
+    }
+  }
+
+  .infoDiv{
+    display: grid;
+    position: relative;
+    height: auto;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    column-gap: 15px;
+    width: 100%;
+    color: white;
+    font-size: 3vw;
+  }
+
+  @media only screen and (min-width: 720px){
+    .infoDiv{
+      font-size: 2vw;
+    }
+  }
+
+  .phone{
+    grid-column-start: 1;
+    grid-column-end: 2;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+  }
+
+  .email{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+  }
+
+  .address{
+    grid-column-start: 3;
+    grid-column-end: 4;
+    grid-row-start: 1;
+    grid-row-end: 2;
+    text-align: center;
+  }

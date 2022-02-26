@@ -1,0 +1,126 @@
+.header{
+    display: block;
+    background-color: wheat;
+    height: auto;
+    width: 100%;
+    text-align: center;
+    padding-bottom: 10px;
+    font-family:monospace;
+ }
+
+ .title{ 
+    padding-top: 3.5vh;
+    font-size: 5vw;
+    color: darkslategrey;
+    font-family:monospace;
+}
+
+.topnavbar {
+    float: left;
+    list-style-type: none;
+    width: 100%;
+    height: 6vh;
+    padding: 0;
+    overflow: hidden;
+    text-decoration: none;
+    margin-right: 0;
+    text-align: center;
+  }
+  
+  .topli{
+    display: inline;
+    float: left;
+    width:33%;
+    text-decoration: none;
+    text-align: center;
+  }
+
+  .navText{
+    display: block;
+    text-decoration: none;
+    color: #4f2040;
+    font-size: 4vw;
+    text-align: center;
+    font-family:monospace;
+  }
+
+  .navText:hover{
+    color: #f2faf2;
+}
+
+  @media only screen and (min-width: 720px){
+    .navText{
+      padding-top: 0;
+      font-size: 5vh;
+    }
+  }
+
+  .divider{
+      height: 3vh;
+      width: 100%;
+      background-color: #4f2040;
+  }
+
+  .container1{
+      background-color: wheat;
+      width: 100%;
+      height: auto;
+      padding: 2px;
+  }
+
+  .containerHeader1{
+      color: darkslategrey;
+      text-align: center;
+      font-family:monospace;
+  }
+
+  @media only screen and (min-width: 720px){
+    .containerHeader1{
+      font-size: 5vh;
+    }
+  }
+
+  .containerPara1{
+      color:darkslategrey;
+      font-size: 3vw;
+      text-indent: 10px;
+      font-family:monospace;
+  }
+
+  @media only screen and (min-width: 720px){
+    .containerPara1{
+      font-size: 4vh;
+    }
+  }
+
+  .container2{
+    background-color: #4f2040;
+    width: 100%;
+    height: auto;
+    padding: 2px;
+}
+
+.containerHeader2{
+    color: white;
+    text-align: center;
+    font-family:monospace;
+}
+
+@media only screen and (min-width: 720px){
+  .containerHeader2{
+    font-size: 5vh;
+  }
+}
+
+.containerPara2{
+    color: white;
+    font-size: 3vw;
+    text-indent: 10px;
+    font-family:monospace;
+}
+
+@media only screen and (min-width: 720px){
+  .containerPara2{
+    font-size: 4vh;
+  }
+}
